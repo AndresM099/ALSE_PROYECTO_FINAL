@@ -1,0 +1,44 @@
+\hypertarget{mainw__datos_8h_source}{}\doxysection{mainw\+\_\+datos.\+h}
+\label{mainw__datos_8h_source}\index{src/mainw\_datos.h@{src/mainw\_datos.h}}
+\mbox{\hyperlink{mainw__datos_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#ifndef MAINW\_DATOS\_H}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#define MAINW\_DATOS\_H}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <QMainWindow>}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <QTimer>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_control___d_b_8h}{Control\_DB.h}}"{}}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{dialoglogin_8h}{dialoglogin.h}}"{}}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_ui}{Ui}} \{}
+\DoxyCodeLine{17 \textcolor{keyword}{class }\mbox{\hyperlink{class_main_w__datos}{MainW\_datos}};}
+\DoxyCodeLine{18 \}}
+\DoxyCodeLine{22 \textcolor{keyword}{class }\mbox{\hyperlink{class_main_w__datos}{MainW\_datos}} : \textcolor{keyword}{public} QMainWindow}
+\DoxyCodeLine{23 \{}
+\DoxyCodeLine{24     Q\_OBJECT}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{keyword}{public}:}
+\DoxyCodeLine{31     \textcolor{keyword}{explicit} \mbox{\hyperlink{class_main_w__datos}{MainW\_datos}}(QWidget *parent = \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{35     \mbox{\hyperlink{class_main_w__datos_a8a03c219e14eb43ec2b78e27a0177398}{\string~MainW\_datos}}();}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38 \textcolor{keyword}{private} slots:}
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} actualizarDatos();}
+\DoxyCodeLine{46     \textcolor{keywordtype}{void} setval();}
+\DoxyCodeLine{51     \textcolor{keywordtype}{void} ingresoUsurio(\textcolor{keywordtype}{int} Cultivo);}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{53 \textcolor{keyword}{private}:}
+\DoxyCodeLine{57     \mbox{\hyperlink{class_ui_1_1_main_w__datos}{Ui::MainW\_datos}} *ui;}
+\DoxyCodeLine{61     \textcolor{keywordtype}{double} \_Datos[6];}
+\DoxyCodeLine{65     \textcolor{keywordtype}{int} \_cont=0;}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67     \mbox{\hyperlink{class_control___d_b}{Control\_DB}} \_control\{\textcolor{stringliteral}{"{}Sensores.db"{}}\};}
+\DoxyCodeLine{71     \mbox{\hyperlink{class_dialog_login}{DialogLogin}} w;}
+\DoxyCodeLine{75     QTimer *timer;}
+\DoxyCodeLine{79     \textcolor{keywordtype}{int} \_cultivo = 1;}
+\DoxyCodeLine{80 \};}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// MAINW\_DATOS\_H}}
+
+\end{DoxyCode}

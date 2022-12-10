@@ -1,0 +1,6 @@
+/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/CMakeFiles/Proyecto_interfaz.dir
+/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/CMakeFiles/Proyecto_consola.dir
+/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/CMakeFiles/Proyecto_interfaz_autogen.dir
+/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/CMakeFiles/Proyecto_consola_autogen.dir

@@ -1,0 +1,94 @@
+{
+	"BUILD_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/Proyecto_interfaz_autogen",
+	"CMAKE_BINARY_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/src",
+	"HEADERS" : 
+	[
+		[
+			"/home/timmy/Documents/ALSE_PROYECTO_FINAL/src/Control_DB.h",
+			"MU",
+			"EWIEGA46WW/moc_Control_DB.cpp"
+		],
+		[
+			"/home/timmy/Documents/ALSE_PROYECTO_FINAL/src/dia_createuser.h",
+			"MU",
+			"EWIEGA46WW/moc_dia_createuser.cpp"
+		],
+		[
+			"/home/timmy/Documents/ALSE_PROYECTO_FINAL/src/dialoglogin.h",
+			"MU",
+			"EWIEGA46WW/moc_dialoglogin.cpp"
+		],
+		[
+			"/home/timmy/Documents/ALSE_PROYECTO_FINAL/src/mainw_datos.h",
+			"MU",
+			"EWIEGA46WW/moc_mainw_datos.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/Proyecto_interfaz_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/Proyecto_interfaz_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/Proyecto_interfaz_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/CMakeFiles/Proyecto_interfaz_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/CMakeFiles/Proyecto_interfaz_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/timmy/Documents/ALSE_PROYECTO_FINAL/src/Control_DB.cpp", "MU" ],
+		[
+			"/home/timmy/Documents/ALSE_PROYECTO_FINAL/src/dia_createuser.cpp",
+			"MU"
+		],
+		[ "/home/timmy/Documents/ALSE_PROYECTO_FINAL/src/dialoglogin.cpp", "MU" ],
+		[ "/home/timmy/Documents/ALSE_PROYECTO_FINAL/src/main_I.cpp", "MU" ],
+		[ "/home/timmy/Documents/ALSE_PROYECTO_FINAL/src/mainw_datos.cpp", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

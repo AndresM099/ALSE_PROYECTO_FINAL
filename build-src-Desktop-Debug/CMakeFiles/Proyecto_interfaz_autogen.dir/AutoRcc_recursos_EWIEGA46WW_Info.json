@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/Proyecto_interfaz_autogen",
+	"CMAKE_BINARY_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/src",
+	"CMAKE_SOURCE_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/src",
+	"INCLUDE_DIR" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/Proyecto_interfaz_autogen/include",
+	"INPUTS" : [],
+	"LOCK_FILE" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/CMakeFiles/Proyecto_interfaz_autogen.dir/AutoRcc_recursos_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "recursos" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_recursos.cpp",
+	"RCC_EXECUTABLE" : "/usr/lib/qt5/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/build-src-Desktop-Debug/CMakeFiles/Proyecto_interfaz_autogen.dir/AutoRcc_recursos_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/timmy/Documents/ALSE_PROYECTO_FINAL/src/recursos.qrc",
+	"VERBOSITY" : 0
+}

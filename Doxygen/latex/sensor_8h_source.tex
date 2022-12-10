@@ -1,0 +1,74 @@
+\hypertarget{sensor_8h_source}{}\doxysection{sensor.\+h}
+\label{sensor_8h_source}\index{src/sensor.h@{src/sensor.h}}
+\mbox{\hyperlink{sensor_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#ifndef SENSOR\_H}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#define SENSOR\_H}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <sstream>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include <cmath>}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{20 \textcolor{keyword}{class }\mbox{\hyperlink{class_sensor}{Sensor}}\{}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 \textcolor{keyword}{private}:}
+\DoxyCodeLine{26     \textcolor{keywordtype}{double} \_dato;}
+\DoxyCodeLine{30     \textcolor{keywordtype}{int} \_limite;}
+\DoxyCodeLine{34     \textcolor{keywordtype}{double} \_max;}
+\DoxyCodeLine{38     \textcolor{keywordtype}{double} \_min;}
+\DoxyCodeLine{42     \textcolor{keywordtype}{double} \_acum;}
+\DoxyCodeLine{46     \textcolor{keywordtype}{int} \_cant;}
+\DoxyCodeLine{50     \textcolor{keywordtype}{int} \_periodo;}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{52     \textcolor{keywordtype}{int} \_conteo;}
+\DoxyCodeLine{56     \textcolor{keywordtype}{int} \_vmin;}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 \textcolor{keyword}{public}:}
+\DoxyCodeLine{70     \mbox{\hyperlink{class_sensor_ae6671bee8558f67c9b188544ab55f1c4}{Sensor}}(\textcolor{keywordtype}{int} limite = 0, \textcolor{keywordtype}{int} vmin = 0, \textcolor{keywordtype}{int} periodo = 0, \textcolor{keywordtype}{double} dato = 0., \textcolor{keywordtype}{double} max = -\/3000, \textcolor{keywordtype}{double} min = 3000, \textcolor{keywordtype}{double} acum = 0, \textcolor{keywordtype}{int} cant = 0)\{}
+\DoxyCodeLine{71         \_dato = dato;}
+\DoxyCodeLine{72         \_limite = limite;}
+\DoxyCodeLine{73         \_periodo = periodo;}
+\DoxyCodeLine{74         \_acum = acum;}
+\DoxyCodeLine{75         \_max = max;}
+\DoxyCodeLine{76         \_min = min;}
+\DoxyCodeLine{77         \_cant = cant;}
+\DoxyCodeLine{78         \_vmin = vmin;}
+\DoxyCodeLine{79     \}}
+\DoxyCodeLine{84     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_sensor_a7aa01b35b7dd519378220ef0720ebd94}{leerDato}}()\{ \textcolor{keywordflow}{return} \_dato; \}}
+\DoxyCodeLine{90     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sensor_a7a861f30f1eb97f9b205d884c58f0fbc}{actualizar}}(\textcolor{keywordtype}{int} contador, \textcolor{keywordtype}{int} periodo);}
+\DoxyCodeLine{95     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_sensor_a417d6021bc1c6bd13d8978e93053d80b}{prom}} () \{\textcolor{keywordflow}{return} \_acum/\_cant;\}}
+\DoxyCodeLine{100     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_sensor_a21b6a9349cc0518367347cc0090fa998}{maximo}} () \{\textcolor{keywordflow}{return} \_max;\}}
+\DoxyCodeLine{105     \textcolor{keywordtype}{double} \mbox{\hyperlink{class_sensor_ae4be261ac8df525824468d50fb94b66c}{minimo}} () \{\textcolor{keywordflow}{return} \_min;\}}
+\DoxyCodeLine{109     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_sensor_a75fe7aa55e8a8beeb5ebda6963c44429}{reiniciar}} ();}
+\DoxyCodeLine{110 }
+\DoxyCodeLine{111 \};}
+\DoxyCodeLine{115 \textcolor{keyword}{class }\mbox{\hyperlink{class_temperatura}{Temperatura}}: \textcolor{keyword}{public} \mbox{\hyperlink{class_sensor}{Sensor}}\{}
+\DoxyCodeLine{116 \textcolor{keyword}{public}:}
+\DoxyCodeLine{120     \mbox{\hyperlink{class_temperatura_a1ff0e091a592688b3151fafc5d6de311}{Temperatura}}():\mbox{\hyperlink{class_sensor}{Sensor}}(55, -\/10)\{\}}
+\DoxyCodeLine{121 \};}
+\DoxyCodeLine{125 \textcolor{keyword}{class }\mbox{\hyperlink{class_humedad}{Humedad}}: \textcolor{keyword}{public} \mbox{\hyperlink{class_sensor}{Sensor}}\{}
+\DoxyCodeLine{126 \textcolor{keyword}{public}:}
+\DoxyCodeLine{130     \mbox{\hyperlink{class_humedad_a14dedd6e6f2e1077ac45a83171c74528}{Humedad}}():\mbox{\hyperlink{class_sensor}{Sensor}}(100, 0)\{\}}
+\DoxyCodeLine{131 \};}
+\DoxyCodeLine{135 \textcolor{keyword}{class }\mbox{\hyperlink{class_velocidad}{Velocidad}}: \textcolor{keyword}{public} \mbox{\hyperlink{class_sensor}{Sensor}}\{}
+\DoxyCodeLine{136 \textcolor{keyword}{public}:}
+\DoxyCodeLine{140     \mbox{\hyperlink{class_velocidad_ac23e0e80993a85ee4b7d82212d4a07ff}{Velocidad}}():\mbox{\hyperlink{class_sensor}{Sensor}}(40, 0)\{\}}
+\DoxyCodeLine{141 \};}
+\DoxyCodeLine{145 \textcolor{keyword}{class }\mbox{\hyperlink{class_d_viento}{DViento}}: \textcolor{keyword}{public} \mbox{\hyperlink{class_sensor}{Sensor}}\{}
+\DoxyCodeLine{146 \textcolor{keyword}{public}:}
+\DoxyCodeLine{150     \mbox{\hyperlink{class_d_viento_a2a9f2df88cc2b90098b9056fc6b05598}{DViento}}():\mbox{\hyperlink{class_sensor}{Sensor}}(360, -\/180)\{\}}
+\DoxyCodeLine{151 \};}
+\DoxyCodeLine{155 \textcolor{keyword}{class }\mbox{\hyperlink{class_precipitacion}{Precipitacion}}: \textcolor{keyword}{public} \mbox{\hyperlink{class_sensor}{Sensor}}\{}
+\DoxyCodeLine{156 \textcolor{keyword}{public}:}
+\DoxyCodeLine{160     \mbox{\hyperlink{class_precipitacion_afb6639a876c3415259783da388b3e51f}{Precipitacion}}():\mbox{\hyperlink{class_sensor}{Sensor}}(50, 0)\{\}}
+\DoxyCodeLine{161 \};}
+\DoxyCodeLine{165 \textcolor{keyword}{class }\mbox{\hyperlink{class_intensidad}{Intensidad}}: \textcolor{keyword}{public} \mbox{\hyperlink{class_sensor}{Sensor}}\{}
+\DoxyCodeLine{166 \textcolor{keyword}{public}:}
+\DoxyCodeLine{170     \mbox{\hyperlink{class_intensidad_aef918e12e9e1179b61d1074a386774bf}{Intensidad}}():\mbox{\hyperlink{class_sensor}{Sensor}}(2000, 0)\{\}}
+\DoxyCodeLine{171 \};}
+\DoxyCodeLine{172 }
+\DoxyCodeLine{173 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// SENSOR\_H}}
+
+\end{DoxyCode}

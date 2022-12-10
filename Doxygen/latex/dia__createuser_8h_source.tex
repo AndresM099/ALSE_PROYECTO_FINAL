@@ -1,0 +1,43 @@
+\hypertarget{dia__createuser_8h_source}{}\doxysection{dia\+\_\+createuser.\+h}
+\label{dia__createuser_8h_source}\index{src/dia\_createuser.h@{src/dia\_createuser.h}}
+\mbox{\hyperlink{dia__createuser_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#ifndef DIA\_CREATEUSER\_H}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#define DIA\_CREATEUSER\_H}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_control___d_b_8h}{Control\_DB.h}}"{}}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <QDialog>}}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{keyword}{namespace }\mbox{\hyperlink{namespace_ui}{Ui}} \{}
+\DoxyCodeLine{14 \textcolor{keyword}{class }\mbox{\hyperlink{class_dia__create_user}{Dia\_createUser}};}
+\DoxyCodeLine{15 \}}
+\DoxyCodeLine{19 \textcolor{keyword}{class }\mbox{\hyperlink{class_dia__create_user}{Dia\_createUser}} : \textcolor{keyword}{public} QDialog}
+\DoxyCodeLine{20 \{}
+\DoxyCodeLine{21     Q\_OBJECT}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{keyword}{public}:}
+\DoxyCodeLine{28     \textcolor{keyword}{explicit} \mbox{\hyperlink{class_dia__create_user}{Dia\_createUser}}(QWidget *parent = \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{32     \mbox{\hyperlink{class_dia__create_user_afc5d47eef63d08ccbf8705a1a36b2e1b}{\string~Dia\_createUser}}();}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{keyword}{private} slots:}
+\DoxyCodeLine{38     \textcolor{keywordtype}{void} on\_buttonBox\_create\_accepted();}
+\DoxyCodeLine{42     \textcolor{keywordtype}{void} on\_pushButton\_validar\_clicked();}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44 \textcolor{keyword}{private}:}
+\DoxyCodeLine{48     \mbox{\hyperlink{class_ui_1_1_dia__create_user}{Ui::Dia\_createUser}} *ui;}
+\DoxyCodeLine{52     QString \_name=\textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{56     QString \_lastName=\textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{60     QString \_document=\textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{64     QString \_dateBirth=\textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{68     QString \_newUser=\textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{72     QString \_newPassword=\textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{76     QString \_confirmPassword=\textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{80     \textcolor{keywordtype}{int} \_cultivo=1;}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82     \mbox{\hyperlink{class_control___d_b}{Control\_DB}} \_control\{\textcolor{stringliteral}{"{}Sensores.db"{}}\};}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{84 \};}
+\DoxyCodeLine{85 }
+\DoxyCodeLine{86 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// DIA\_CREATEUSER\_H}}
+
+\end{DoxyCode}
